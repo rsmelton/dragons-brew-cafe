@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5001
 
 const __dirname = path.resolve()
 
-app.use(express.json())
+app.use(express.json()) 
 
 // we will need routes for CRUD Operations.
 // this appends the path /api/cart to the end of the PORT we are 
